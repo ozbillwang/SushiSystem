@@ -7,7 +7,7 @@ This is my personal project -- Sushi Restaurant System
 
 3. The GUI was built by JavaFX. 
     Specific operations might need to be taken to run the program 
-    see:https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx- overview.htm
+    see:https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm
     
 4. For this version, it only allows one server to run. I will make a multi-server version in the future. 
 
