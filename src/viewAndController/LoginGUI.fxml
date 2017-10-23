@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="250.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewAndController.LoginGUIController">
+   <children>
+      <ImageView fitHeight="282.0" fitWidth="449.0">
+         <image>
+            <Image url="@login.JPG" />
+         </image></ImageView>
+      <Group layoutX="100.0" layoutY="227.0">
+         <children>
+            <Button fx:id="loginB" mnemonicParsing="false" onAction="#loginEvent" prefHeight="32.0" prefWidth="94.0" text="Login" />
+            <Button fx:id="registerB" layoutX="95.0" mnemonicParsing="false" onAction="#register" prefHeight="32.0" prefWidth="87.0" text="Register" />
+            <Button fx:id="exitB" layoutX="182.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="94.0" text="Exit" />
+         </children>
+      </Group>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0dce8" height="159.0" layoutX="24.0" layoutY="36.0" opacity="0.67" stroke="WHITE" strokeType="INSIDE" width="399.0" />
+      <Label layoutX="37.0" layoutY="47.0" prefHeight="32.0" prefWidth="157.0" text="UserName" textFill="#740fab">
+         <font>
+            <Font name="Broadway" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="105.0" text="Password" textFill="#8510c5">
+         <font>
+            <Font name="Broadway" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userNameField" layoutX="131.0" layoutY="79.0" prefHeight="22.0" prefWidth="266.0" />
+      <PasswordField fx:id="passwordField" layoutX="131.0" layoutY="141.0" prefHeight="26.0" prefWidth="266.0" />
+   </children>
+</AnchorPane>
