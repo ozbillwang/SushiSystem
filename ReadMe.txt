@@ -14,5 +14,5 @@ This is my personal project -- Sushi Restaurant System
 5. To run the code, plesae compile InitLoginGUI.java and InitServerGUI.java
    Please run the server first and then clients, because clients need to connect to the server via socket.
    
-6. There are still many System.out.println commands in the code. I decided not to remove them so that logs of operations can be seen by 
-   the printings.
+6. There are still many System.out.println commands in the code. I decided not to remove them so that logs of operations can be 
+   seen by the printings.
