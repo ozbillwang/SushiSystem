@@ -16,3 +16,10 @@ This is my personal project -- Sushi Restaurant System
    
 6. There are still many System.out.println commands in the code. I decided not to remove them so that logs 
    of operations can be seen by the printings.
+
+Introduction: 
+This system is designed for a Sushi restaurant that has:
+     - drones which delivers orders to customers and buys ingredients from suppliers.
+     - kitchen staff who prepare Sushi dishes when the stock of certain Sushi dishes reached the restocking level.
+     - Stockmanagement that deals with the storage of Sushi dishes and ingredients. 
+     
