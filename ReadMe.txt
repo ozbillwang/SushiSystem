@@ -56,7 +56,7 @@ what happens in the server/client can be seen.
                Once the login information is confirmed by the server, an instance of this class will
                be created to display the client application to the user.
                
-         Model: -------------------------------------------------------------------------------------------------------------
+         Model: --------------------------------------------------------------------------
          - Client.java
          
                This is where the client socket lives. It communicates to the server. 
@@ -70,7 +70,7 @@ what happens in the server/client can be seen.
                It also sends messages to the server. For example, a message contains the order 
                information will be sent to the server, once the user creates one. 
                
-         View: ------------------------------------------------------------------------------------------------------------------
+         View: -----------------------------------------------------------------------------
          - AlertPopup.java
          
                This class is created to reduce the redundancy of code.
@@ -88,7 +88,7 @@ what happens in the server/client can be seen.
          - LoginGUI.fxml
          - RegisterGUI.fxml
          
-         Controller:  -----------------------------------------------------------------------------------------------------------   
+         Controller:  ---------------------------------------------------------------------
          - ClientGUIController.java
          
                It is the controller of the Client GUI. 
@@ -122,7 +122,7 @@ what happens in the server/client can be seen.
                
                It initializes the server and the server GUI.
          
-         Model: -------------------------------------------------------------------------------------------------------------
+         Model: ---------------------------------------------------------------------------
          - Server.java
          
                It is the server socket. And it includes methods to send messages to the client(s)
@@ -198,7 +198,7 @@ what happens in the server/client can be seen.
                (a hashtable of ingredients and amount) etc.
 
          
-         View: -------------------------------------------------------------------------------------------------------------
+         View: ----------------------------------------------------------------------
          - AlertPopup.java
          
                As I described above.
@@ -218,7 +218,7 @@ what happens in the server/client can be seen.
          
                The GUI file.
                
-         Controller: --------------------------------------------------------------------------------------------------------
+         Controller: --------------------------------------------------------------------
          
          - ServerGUIController.java
          
